@@ -1,0 +1,1 @@
+    <script src="fx-contenido/js/cookies.js"></script>

@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^sitemap\.xml$ sitemap\.php [L]
+RewriteRule ^sitemap-blog\.xml$ sitemap-blog\.php [L]
+RewriteRule ^sitemap-libros\.xml$ sitemap-libros\.php [L]
+RewriteRule ^sitemap-noticias\.xml$ sitemap-noticias\.php [L]
+#RewriteRule ^([a-z]+)/?$ $1.php [NC]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+#RewriteRule ^([a-z]+)/?$ $1.html [NC]
+
+</IfModule>

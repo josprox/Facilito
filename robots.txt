@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /fx-includes/
+Disallow: /facilito_db/
+Disallow: /admin/
+Disallow: /fx-plugins/
+
+Sitemap: http://josprox.com/sitemap.xml
+Sitemap: http://josprox.com.mx/sitemap.xml
