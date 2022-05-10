@@ -1,6 +1,8 @@
 # Facilito f(x)
 
-Si tú quieres tener un blog y aparte eres un programador, te presento un sistema de gestión de contenido, este sitio web está basado en Zara CSS, la versión más actualizada de Paoo CSS.
+<img src="./fx-contenido/img/logos-corp/facilito.webp">
+
+Si tú quieres tener un blog y aparte eres un programador, te presento un sistema de gestión de contenido, esta sitio web está basado en Zara CSS, la versión más actualizada de Paoo CSS.
 
 Con facilito f(x) tienes una programación estructurada y lista para poder ser editada, podrás trabajar con cualquier framework.
 
@@ -36,6 +38,8 @@ Ahora para poder empezar a usarlo deberás:
 - importar el archivo SQL que viene en la descarga.
 
 - Modificar el archivo "./fx-conexion/base_db.php" con los datos correspondientes para poder llevar una conexión exitosa.
+
+- Modificar el archivo "./fx-celulares/facilito_db/Base_DD.php" con los datos correspondientes para poder llevar una conexión exitosa.
 
 - Modificar todos los archivos dentro de "./fx-sitemaps/" y en todos los dominios "josprox.com" modificalo a tú dominio.
 

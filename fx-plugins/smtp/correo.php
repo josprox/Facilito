@@ -140,7 +140,7 @@ try {
 
     //Recipients
     $mail->setFrom( $correo, $nombre);
-    $mail->addAddress('agrega el correo donde lo envías');     //Add a recipient
+    $mail->addAddress('agrega el correo donde lo recibirás');     //Add a recipient
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
